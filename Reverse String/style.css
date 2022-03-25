@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-top: 15%;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+}
+
+input{
+    margin-top: 15px;
+    padding: 3px 50px 10px 50px;
+}
+
+#showData{
+    margin-top: 5px;
+}
