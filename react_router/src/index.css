@@ -34,3 +34,9 @@ button{
   padding: 10px;
   cursor: pointer;
 }
+
+.error404{
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
