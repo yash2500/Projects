@@ -22,3 +22,8 @@ nav a{
   color: whitesmoke;
   text-decoration: none;
 }
+
+/* nav a.active{
+  font-weight: bold;
+  color: aliceblue;
+} */
