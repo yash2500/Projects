@@ -5,7 +5,7 @@ export const Products = () => {
   return (
     <>
     <div>
-        <input type="search" placeholder='search products' />
+        <input class="fa fa-search" type="search" placeholder='search products' />
     </div>
     <nav className='products-nav'>
         <Link to='featured'>Featured</Link>
