@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import CHeader from "./components/CHeader";
 import Header from "./components/Header";
+import Channel from "./components/Channel";
 
 const name = <span>Hello React</span>;
 
@@ -40,6 +41,8 @@ function App() {
       </Header>
       <Header name='jay' lastname='Sharma' />
       <Header name='abhi' lastname='Soni' />
+
+      <Channel />
     </div>
   );
 }
