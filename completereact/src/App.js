@@ -3,6 +3,8 @@ import React from "react";
 import CHeader from "./components/CHeader";
 import Header from "./components/Header";
 import Channel from "./components/Channel";
+import FunctionClick from "./components/FunctionClick";
+import CFunctionClick from "./components/CFunctionClick";
 
 const name = <span>Hello React</span>;
 
@@ -43,6 +45,10 @@ function App() {
       <Header name='abhi' lastname='Soni' />
 
       <Channel />
+
+      <FunctionClick />
+
+      <CFunctionClick/>
     </div>
   );
 }
