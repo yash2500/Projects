@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 
 export class CFunctionClick extends Component {
 
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.changeEvent=this.changeEvent.bind(this);
 
         this.state={
-            course: "I.T."
+            course: "I.T.",
+            roll: this.props.roll
         }
     }
 
@@ -15,7 +16,7 @@ export class CFunctionClick extends Component {
         this.setState({
             course: "Computer"
         })
-        console.log('Hello Yash', this.state.course);
+        console.log('Hello Yash', this.state.course, this.state.roll);
     }
 
   render() {
@@ -24,6 +25,8 @@ export class CFunctionClick extends Component {
         <button onClick={this.changeEvent}>Class Click Me</button>
         <br />
         {this.state.course}
+        <br />
+        {this.state.roll}
       </div>
     )
   }

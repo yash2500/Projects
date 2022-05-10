@@ -48,7 +48,7 @@ function App() {
 
       <FunctionClick />
 
-      <CFunctionClick/>
+      <CFunctionClick roll="22" />
     </div>
   );
 }
