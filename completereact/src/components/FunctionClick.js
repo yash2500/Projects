@@ -8,9 +8,9 @@ function FunctionClick() {
     }
 
   return (
-    <div>
+    <>
         <a href='https://www.google.com/' onClick={changeEvent}>Function Click Me</a>
-    </div>
+    </>
   )
 }
 

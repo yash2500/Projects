@@ -20,14 +20,22 @@ export class CFunctionClick extends Component {
     }
 
   render() {
+
+    const numbers = [3,4,5,6];
+    const newNumbers = numbers.map((numbers) => {
+        console.log(numbers);
+        return <li>{numbers}</li>
+    })
+
     return (
-      <div>
+      <>
         <button onClick={this.changeEvent}>Class Click Me</button>
         <br />
         {this.state.course}
         <br />
         {this.state.roll}
-      </div>
+        <ul>{newNumbers}</ul>
+      </>
     )
   }
 }
